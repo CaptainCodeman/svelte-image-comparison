@@ -23,10 +23,6 @@
 </ImageComparison>
 
 <style>
-	h1,
-	p {
-		font-family: Arial, Helvetica, sans-serif;
-	}
 	img {
 		max-width: 100%;
 		height: auto;

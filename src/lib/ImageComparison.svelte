@@ -79,6 +79,7 @@
 
 	#right {
 		clip-path: inset(0 0 0 var(--position));
+		pointer-events: none; /* allow slotted elements to listen to whatever events they want */
 	}
 
 	/* handle size: 24px - 20px borders = 4px visible */

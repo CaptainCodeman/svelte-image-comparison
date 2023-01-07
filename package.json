@@ -33,6 +33,7 @@
 		"@sveltejs/package": "^1.0.2",
 		"svelte": "^3.55.0",
 		"svelte-check": "^3.0.1",
+		"svelte-pan-zoom": "^0.0.4",
 		"tslib": "^2.4.1",
 		"typescript": "^4.9.4",
 		"vite": "^4.0.4"
