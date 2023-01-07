@@ -1,6 +1,6 @@
 {
 	"name": "svelte-image-comparison",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"type": "module",
 	"keywords": [
 		"svelte",
@@ -8,14 +8,6 @@
 		"image",
 		"compare"
 	],
-	"files": [
-		"dist"
-	],
-	"exports": {
-		".": "./dist/index.js"
-	},
-	"main": "./dist/index.js",
-	"types": "./dist/index.d.ts",
 	"homepage": "https://captaincodeman.github.io/svelte-image-comparison/",
 	"repository": {
 		"type": "git",
