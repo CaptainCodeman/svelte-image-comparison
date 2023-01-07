@@ -45,9 +45,9 @@
 	}
 </script>
 
-<div style:position="relative" style:overflow="hidden" style:--position={formatter.format(position)}>
-	<div id="left" draggable="false" on:dragstart={() => false}><slot name="left" /></div>
-	<div id="right" draggable="false" on:dragstart={() => false}><slot name="right" /></div>
+<div class={$$props.class} id="container" style:--position={formatter.format(position)}>
+	<div class={$$props.class} id="left" draggable="false" on:dragstart={() => false}><slot name="left" /></div>
+	<div class={$$props.class} id="right" draggable="false" on:dragstart={() => false}><slot name="right" /></div>
 
 	<span id="handle" use:drag>
 		<svg id="left-handle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -69,6 +69,11 @@
 </div>
 
 <style>
+	#container {
+		position: relative;
+		overflow: hidden;
+	}
+
 	div {
 		display: inline-block;
 	}

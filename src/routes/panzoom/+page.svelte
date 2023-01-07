@@ -55,9 +55,11 @@
 	})
 </script>
 
-<p>Using with <a href="https://www.npmjs.com/package/svelte-pan-zoom">svelte-pan-zoom</a></p>
+<p class="mt-2 text-gray-600">
+	Using with <a class="text-blue-700 underline" href="https://www.npmjs.com/package/svelte-pan-zoom">svelte-pan-zoom</a>
+</p>
 
-<ImageComparison>
+<ImageComparison class="w-full h-[480px] mt-4">
 	<canvas use:panzoom={options} slot="left" />
 	<canvas bind:this={canvas} slot="right" id="right" />
 </ImageComparison>
@@ -65,11 +67,11 @@
 <style>
 	canvas {
 		box-sizing: border-box;
-		width: 960px;
-		height: 640px;
+		width: 100%;
+		height: 100%;
 		user-select: none;
 		touch-action: none;
-		background-color: #ccc;
+		background-color: #666;
 		overscroll-behavior: none;
 		-webkit-user-select: none; /* disable selection/Copy of UIWebView */
 		-webkit-touch-callout: none; /* disable the IOS popup when long-press on a link */

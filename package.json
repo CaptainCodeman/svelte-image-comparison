@@ -1,41 +1,46 @@
 {
-	"name": "svelte-image-comparison",
-	"version": "0.0.2",
-	"type": "module",
-	"keywords": [
-		"svelte",
-		"component",
-		"image",
-		"compare"
-	],
-	"homepage": "https://captaincodeman.github.io/svelte-image-comparison/",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/captaincodeman/svelte-image-comparison.git"
-	},
-	"author": {
-		"name": "Simon Green",
-		"email": "simon@captaincodeman.com",
-		"url": "https://www.captaincodeman.com/"
-	},
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"package": "svelte-kit sync && svelte-package",
-		"prepublishOnly": "echo 'Did you mean to publish `./package/`, instead of `./`?' && exit 1",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-static": "^1.0.1",
-		"@sveltejs/kit": "^1.0.7",
-		"@sveltejs/package": "^1.0.2",
-		"svelte": "^3.55.0",
-		"svelte-check": "^3.0.1",
-		"svelte-pan-zoom": "^0.0.4",
-		"tslib": "^2.4.1",
-		"typescript": "^4.9.4",
-		"vite": "^4.0.4"
-	}
+  "name": "svelte-image-comparison",
+  "version": "0.0.3",
+  "type": "module",
+  "keywords": [
+    "svelte",
+    "component",
+    "image",
+    "compare"
+  ],
+  "homepage": "https://captaincodeman.github.io/svelte-image-comparison/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/captaincodeman/svelte-image-comparison.git"
+  },
+  "author": {
+    "name": "Simon Green",
+    "email": "simon@captaincodeman.com",
+    "url": "https://www.captaincodeman.com/"
+  },
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "package": "svelte-kit sync && svelte-package",
+    "prepublishOnly": "echo 'Did you mean to publish `./package/`, instead of `./`?' && exit 1",
+    "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+    "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^1.0.1",
+    "@sveltejs/kit": "^1.0.7",
+    "@sveltejs/package": "^1.0.2",
+    "svelte": "^3.55.0",
+    "svelte-check": "^3.0.1",
+    "svelte-pan-zoom": "^0.0.4",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.4",
+    "vite": "^4.0.4",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "svelte-preprocess": "^4.10.7",
+    "autoprefixer": "^10.4.7",
+    "tailwindcss": "^3.1.5"
+  }
 }

@@ -7,26 +7,16 @@
 	<title>svelte-image-comparison</title>
 </svelte:head>
 
-<h1>svelte-image-comparison</h1>
-<p>Svelte component to compare two image or canvas elements</p>
+<p class="mt-2 text-gray-600">Svelte component to compare two image or canvas elements</p>
 
-<pre>
+<pre class="text-xs mt-4">
 &lt;ImageComparison>
   &lt;img src="/animal-ga395c165e_1920a.webp" alt="Before" slot="left" />
   &lt;img src="/animal-ga395c165e_1920b.webp" alt="After" slot="right" />
 &lt;/ImageComparison>
 </pre>
 
-<ImageComparison>
-	<img src="{base}/animal-ga395c165e_1920a.webp" alt="Before" slot="left" />
-	<img src="{base}/animal-ga395c165e_1920b.webp" alt="After" slot="right" />
+<ImageComparison class="max-w-full mt-4">
+	<img class="select-none pointer-events-none" src="{base}/animal-ga395c165e_1920a.webp" alt="Before" slot="left" />
+	<img class="select-none pointer-events-none" src="{base}/animal-ga395c165e_1920b.webp" alt="After" slot="right" />
 </ImageComparison>
-
-<style>
-	img {
-		max-width: 100%;
-		height: auto;
-		user-select: none;
-		pointer-events: none;
-	}
-</style>
