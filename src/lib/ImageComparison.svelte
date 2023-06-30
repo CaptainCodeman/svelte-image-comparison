@@ -100,6 +100,7 @@
 		border-left: 10px solid transparent; /* borders for bigger hit target */
 		border-right: 10px solid transparent;
 		cursor: col-resize;
+		touch-action: none;
 	}
 
 	svg {
